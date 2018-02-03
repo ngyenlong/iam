@@ -13,5 +13,6 @@ export class nhap{
 		console.log(a);
 		console.log(b);
 		localStorage.setItem('testObject', JSON.stringify(mang));
+		console.log('test');
 	}
 }
