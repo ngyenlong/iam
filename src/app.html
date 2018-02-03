@@ -1,0 +1,25 @@
+<template>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <require from="./styles.css"></require>
+  <!-- <require from="./task-list"></require> -->
+  <require from="./nhap"></require>
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <i class="fa fa-user"></i>
+        <span>Tasks</span>
+      </a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <!-- <tak-list cslass="col-md-4"></task-list> -->
+      <router-view class="col-md-8"></router-view>
+    </div>
+  </div>
+  <div class="container">
+    <nhap> </nhap>
+  </div>
+</template> 
